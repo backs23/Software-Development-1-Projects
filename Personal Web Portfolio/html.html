@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Personal Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR --> 
+  <nav>
+    <div class="left">
+      <img class="profile" src="images/Untitled design (1).png">
+      <a href="#">Justine Ranoa</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section id="abouts" class="title-section">
+      <h2>About me</h2>
+      <div class="title">
+      <div class="text">
+        <h2>Hi, I'm Justine Ranoa 👋</h2>
+        <p> a Web Developer, currently studying Bachelor of Science in Computer Engineering at Cebu Technological University Danao Campus. I specialize in designing and building websites, I thrive on bringing innovative ideas to life and solving complex problems with creativity and efficiency.</p>
+            <p>Throughout my career, I have developed a diverse skill set that includes Problem Solving, Management skills, Time management and adaptability. I continuously seek out new challenges and opportunities to grow both personally and professionally.</p>
+            <p>Feel free to explore my portfolio, learn more about my skills, or <a href="#contacts" >contact</a>  to discuss how we can work together on your next project. Thank you for visiting!</p>
+        
+        <div class="links">
+          
+          <a href="#skills">
+            <!--i for icons-->
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#works">
+            <i class="fa-solid fa-laptop-code"></i>
+            <span>Works</span>
+          </a>
+          
+          <a href="#contacts">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+      <div class="picture">
+        <img src="images/Untitled design (1).png">
+      </div>
+    </section>
+    
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+          <a class="back" href="#abouts"><</a>
+          <a class="forward" href="#works">></a>
+          <h2>Skills</h2>
+            
+            <div class="cells">
+              <a href="tech-skills.html">
+               <span>Technical skill</span>
+              </a>
+              <a href="soft-skills.html">
+                <span>Soft skills</span>
+              </a>
+              <a href="certificate.html">
+               <span>Certificate</span>
+              </a>
+          </div>
+        </div>
+        </section>
+
+         <!-- SECTION 3: Works -->
+    <section id="works" class="works-section">
+      <a class="back" href="#skills"><</a>
+      <a class="forward" href="#contacts">></a>
+      <h2>Works</h2>
+    </section>
+  
+    <!-- SECTION 4: Contact -->
+    <section id="contacts" class="contact-section">
+      <a class="back" href="#works"><</a>
+      <a class="forward" href="#abouts">Back to Home</a>
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          <div class="cell">
+            <!--i for icons-->
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Address</span>
+            <p>Cabica, Campusong,<br> Borbon, Cebu</p>
+          </div>
+          
+          <div class="cell">
+            <i class="fa-solid fa-phone"></i>
+            <span>Phone</span>
+            <p>+09926343813</p>
+          </div>
+          
+          <div class="cell">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+            <p> justine.ranoa01@gmail.com </p>
+          </div>
+          
+       </div>
+       <div class="form">
+        <form action="https://formspree.io/f/xzbnqwnv" method="POST">
+          <p>Thank you for visiting my portfolio, if you have any work from me feel free to send me message from here.
+          </p>
+          <input type="text" name="Name" placeholder="Full name" required>
+          <input type="email" name="Email" placeholder="Email" required>
+          <textarea name="Message" placeholder="Message" cols="20" rows="15"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+       </div>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>

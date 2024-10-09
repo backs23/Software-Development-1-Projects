@@ -1,0 +1,95 @@
+ body{
+  margin: 0%;
+ }
+ nav {
+  display: flex;
+  float: right;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  max-width: 1400px;
+}
+
+nav button{
+  margin-right: 50px;
+  align-items: center;
+  background-color: blue;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+nav button a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+nav button:hover{
+  background-color: black;
+}
+
+ /* SECTION 2: Skills */
+ .skills-section {
+    background-image: url(images/techskills.jpg);
+    padding: 50px 50px;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 480px;
+    max-width: 1400px;
+  }
+  
+  .skills-section h2 {
+    text-align: center;
+    color: white;
+    margin: 0px 50px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .skills-section .text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skills-section .cells {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 80px;
+  }
+  .skills-section .cells .tech-skills{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .skills-section .cells .tech-skills .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+  }
+  
+  .skills-section .cells .tech-skills .cell img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 2px;
+  }
+  
+  .skills-section .cells .tech-skills .cell span {
+    font-size: 18px;
+    color: white;
+  }
